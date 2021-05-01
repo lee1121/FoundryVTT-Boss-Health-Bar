@@ -1,0 +1,43 @@
+#boss-health {
+  position: absolute;
+  width: 100%;
+  top: 100px;
+  display: none !important;
+  justify-content: center;
+  align-content: center;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+#boss-health.visible {
+  display: flex !important;
+}
+
+#boss-health,
+#boss-health .form-header {
+  /*color: #FC5C1E;*/
+  color: #FFF;
+}
+
+#boss-health-bar {
+  position: fixed;
+  bottom: 150px;
+  width: 500px;
+}
+
+#boss-health .form-header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  -webkit-text-stroke-width: 2px;
+}
+
+#bar {
+  height: 20px;
+  width: 100%;
+  background-color: #BBB;
+  border: 2px solid #000;
+}
+#progress {
+  height: 20px;
+  background-color: #B11;
+}
