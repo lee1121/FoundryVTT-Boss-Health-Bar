@@ -55,7 +55,6 @@ export default class BossHealthBar extends FormApplication {
 	{
 		let value = this.selectedToken.actor.data.data.attributes.hp.value / this.selectedToken.actor.data.data.attributes.hp.max * 100;
 		
-		//game.settings.set('BossHealthBar', 'progress', );
 		hpDebounce(value);
 	}
 
