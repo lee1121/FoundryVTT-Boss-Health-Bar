@@ -1,7 +1,7 @@
 {
 	"name": "boss-health-bar",
 	"title": "Boss Health Bar",
-	"description": "Adds a health bar, for during boss fights.",
+	"description": "A module to add a Dark Souls-like health bar for bosses.",
 	"author": "Lee1121",
 	"version": "1.0.0",
 	"minimumCoreVersion": "0.7.9",
