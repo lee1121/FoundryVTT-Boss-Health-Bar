@@ -1,9 +1,17 @@
 <div id="boss-health" class="{{#if visible}}visible{{/if}}">
-  <div id="boss-health-bar">
+  <div id="boss-health-bar-one">
     <form class="flexcol">
-      <h3 class="form-header" id="bossNameLabel" name="bossNameLabel">{{ bossNameLabel }}</h3>
+      <h3 class="form-header" id="bossNameLabelOne" name="bossNameLabelOne">{{ bossNameLabelOne }}</h3>
 	  <div id="bar">
-		<div id="progress" name="progress"></div>
+		<div id="progress" name="hpValueOne"></div>
+	  </div>
+    </form>
+  </div>
+  <div id="boss-health-bar-two" class="{{#if secondBarVisible}}secondBarVisible{{/if}}">
+    <form class="flexcol">
+      <h3 class="form-header" id="bossNameLabelTwo" name="bossNameLabelTwo">{{ bossNameLabelTwo }}</h3>
+	  <div id="bar">
+		<div id="progress" name="hpValueTwo"></div>
 	  </div>
     </form>
   </div>

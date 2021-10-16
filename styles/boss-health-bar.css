@@ -2,14 +2,14 @@
   position: absolute;
   width: 100%;
   top: 100px;
-  display: none !important;
+  display: none;
   justify-content: center;
   align-content: center;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: black;
 }
 #boss-health.visible {
-  display: flex !important;
+  display: flex;
 }
 
 #boss-health,
@@ -17,10 +17,20 @@
   color: #FFF;
 }
 
-#boss-health-bar {
+#boss-health-bar-one {
   position: fixed;
-  bottom: 150px;
+  bottom: 130px;
   width: 500px;
+}
+
+#boss-health-bar-two {
+  position: fixed;
+  bottom: 210px;
+  width: 500px;
+  display: none !important;
+}
+#boss-health-bar-two.secondBarVisible {
+  display: flex !important;
 }
 
 #boss-health .form-header {
@@ -32,7 +42,7 @@
 
 #bar {
   height: 20px;
-  width: 100%;
+  width: 500px;
   background-color: #BBB;
   border: 2px solid #000;
 }
